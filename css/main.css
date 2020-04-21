@@ -12,6 +12,17 @@
   color: #fff;
 }
 
+.asterisk { color: red; font-size: .8rem; }
+.mc-field-group label { 
+  min-width: 125px; 
+  text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: 400;
+  padding-top: 5px;
+  margin-bottom: 0;
+}
+#mc-embedded-subscribe { margin-left: 200px; }
+
 ::selection {
   background-color: #235ee7;
   color: #fff;
@@ -47,6 +58,10 @@
   /* Microsoft Edge */
   color: #777777;
   font-weight: 300;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
