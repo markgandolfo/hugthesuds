@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="hugthesuds.svg"
+   inkscape:version="1.0rc1 (09960d6, 2020-04-09)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 66.109451 9.8029879"
+   height="9.8029881mm"
+   width="66.109451mm">
+  <defs
+     id="defs2">
+    <rect
+       id="rect12"
+       height="30.994047"
+       width="124.73214"
+       y="13.607143"
+       x="19.654762" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="0"
+     inkscape:window-y="23"
+     inkscape:window-x="0"
+     inkscape:window-height="755"
+     inkscape:window-width="1252"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="500.71"
+     inkscape:cx="323.31371"
+     inkscape:zoom="0.35"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-20.289915,-15.687146)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <text
+       style="font-style:normal;font-weight:normal;font-size:10.58329999999999949px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect12);fill:#000000;fill-opacity:1;stroke:none;"
+       id="text10"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         x="19.654297"
+         y="23.262887"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';fill:#ffffff">hugthesuds</tspan></tspan></text>
+    <text
+       id="text28"
+       y="98.062881"
+       x="199.97313"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="98.062881"
+         x="199.97313"
+         id="tspan26"
+         sodipodi:role="line" /></text>
+  </g>
+</svg>
