@@ -2295,7 +2295,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background: url(../img/background.png) center;
+  /* background: url(../img/background.png) center; */
+  background-image: -webkit-linear-gradient(0deg, #235ee7 0%, #4ae7fa 100%);
   background-size: cover;
 }
 
