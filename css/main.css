@@ -21,7 +21,6 @@
   padding-top: 5px;
   margin-bottom: 0;
 }
-#mc-embedded-subscribe { margin-left: 200px; }
 
 ::selection {
   background-color: #235ee7;
@@ -1921,6 +1920,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   line-height: 1;
   font-weight: 700;
+  margin-top: 10px;
   letter-spacing: 3px;
 }
 
@@ -1934,6 +1934,7 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
+  margin-top: 10px;
   height: 25px;
 }
 
@@ -2014,6 +2015,12 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 1024px) {
   #nav-menu-container {
     padding-right: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #header #logo img {
+    height: 45px;
   }
 }
 
@@ -2348,6 +2355,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 414px) {
   .banner-content h1 {
     font-size: 40px;
+  }
+
+  .banner-content {
+    margin-top: -320px;
   }
 }
 
