@@ -53,9 +53,7 @@
 			</div>
 		</header>
 
-
-
-			<!-- start banner Area -->
+		<!-- start banner Area -->
 			<section class="banner-area" id="home">	
 				<div class="container">
 					<div class="row fullscreen d-flex align-items-center justify-content-center">
@@ -76,7 +74,7 @@
 									<div class="row align-items-center justify-content-center">
 										<div class="p-2 strikethrough badge badge-highlight">sold out</div>
 									</div>
-									<a href="#waitlist" class="primary-btn text-uppercase">Get notified</a>
+									<a href="#waitlist" data-amount="1" class="get-notified primary-btn text-uppercase">Get notified</a>
 								</div>
 								<div class="col-6 product">
 									<img class="img-fluid" src="./img/plain-spout-pouches-5000.png" alt="5 Litres" />
@@ -84,7 +82,7 @@
 									<div class="row align-items-center justify-content-center">
 										<div class="p-2 strikethrough badge badge-highlight">sold out</div>
 									</div>
-									<a href="#waitlist" class="primary-btn text-uppercase">Get notified</a>
+									<a href="#waitlist" data-amount="5" class="get-notified primary-btn text-uppercase">Get notified</a>
 								</div>
 							</div>
 						</div>
@@ -416,6 +414,18 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			<!-- End Facebook Pixel Code -->
 			<script>
 				fbq('track', 'page-load');
+
+				const buttons = document.querySelectorAll(".get-notified")
+					for (const button of buttons) {
+						button.addEventListener('click', function (event) {
+							const amount = this.dataset.amount;
+							gtag('send', 'event', {
+								eventCategory: 'get-notified',
+								eventAction: 'click',
+								eventLabel: amount
+							});
+						})
+					}
 			</script>
 		</body>
 	</html>
